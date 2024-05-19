@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Problema da mochila</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/font.css">
+  </head>
+  <body class="py-4">
+    <section class="container">
+      <h1 class="text-center my-5 poppins-bold">O problema da mochila</h1>
+
+      <div class="row">
+     
+        <div class="col-md-6 mt-5">
+            <h2 class="text-start mb-5 poppins-medium">Materiais escolares</h2>
+            <table class="table table-bordered table-striped" id="school-supplies-table">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Material</th>
+                        <th>Peso</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+            <tbody id="all-supplies"></tbody>
+            </table>
+        </div>
+
+        <div class="col-md-6 mt-5">
+            <button class="btn btn-primary btn-lg btn-block" id="initialize-btn">Iniciar seleção aleatória</button>
+            <div class="card mt-5">
+            <div class="card-header">
+                Materiais selecionados
+            </div>
+            <ul class="list-group list-group-flush" id="selected-supplies">
+            </ul>
+            <div class="card-footer">
+                Peso total: <span id="total-weight">0</span> kg / 4kg limite
+                <br>
+                Valor total: <span id="total-value">0</span>
+                <br>
+                <span id="weight-warning" class="text-danger"></span>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+      
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

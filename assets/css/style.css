@@ -1,0 +1,38 @@
+* {
+    font-family: "Poppins", sans-serif;
+    color: #f0f0f0;
+}
+
+body {
+    background-color: #1d1d1d;
+}
+
+#initialize-btn {
+    background-color: #b246f2;
+    border-color: #b246f2;
+}
+
+#initialize-btn:hover {
+    background-color: #830cc4;
+    border-color: #830cc4;
+}
+
+#weight-warning {
+    font-weight: bold;
+}
+
+.card{
+    background-color: transparent;
+    border-color: #830cc4;
+}
+
+.card-header{
+    border-bottom-color: #ffffff15;
+    background-color: #ffffff07;
+}
+
+.list-group-item {
+    
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
